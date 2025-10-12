@@ -1,0 +1,3 @@
+# q. what is ml?
+# a. Machine Learning (ML) 
+# is a subset of artificial intelligence (AI) that focuses on the development of algorithms and statistical models that enable computers to perform tasks without explicit instructions. Instead, these systems learn from and make predictions or decisions based on data.
