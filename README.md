@@ -1,50 +1,53 @@
-# 🏠 End-to-End Machine Learning Project  
-## House Price Prediction (Regression Problem)
+# Chapter 2 Practice Notebook
 
-### 📘 Project Overview
-This project demonstrates a complete **end-to-end machine learning workflow** — from data loading and preprocessing to model training, evaluation, and deployment.  
-The goal is to **predict house prices** based on various features using regression techniques.
+This repository contains practice exercises and examples from **Chapter 2** of the book _Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow (Third Edition)_ by Aurélien Géron.
 
----
+## Contents
 
-### 🚀 Key Steps in the Project
-1. **Data Collection**
-   - Loaded the **California Housing Dataset** (from Aurelien Géron’s “Hands-On Machine Learning” book).
-   - Explored key features like median income, location, and population.
+- End-to-end machine learning project workflow
+- Working with real-world datasets
+- Data cleaning and preparation techniques
+- Feature engineering strategies
+- Model training and evaluation
+- Hyperparameter tuning
+- Model deployment basics
+- Using Scikit-Learn for machine learning tasks
 
-2. **Data Exploration & Visualization**
-   - Used `pandas`, `matplotlib`, and `seaborn` for EDA.
-   - Identified correlations between features and the target variable (`median_house_value`).
+## Getting Started
 
-3. **Data Preprocessing**
-   - Created training and test set using sklearn train_test_split
-   - Created median income category column from median income column converting continuous values into categories
-   - Created stratified train and test set and compare with random
-   train and test set
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/BUFONJOKER/ml_projects_hands_on_ml_book_chapter2.git
+   cd ml_projects_hands_on_ml_book_chapter2
+   ```
 
-4. **Model Training**
-   - Trained multiple regression models:
-     - Linear Regression  
-     - Decision Tree Regressor  
-     - Random Forest Regressor
-   - Used **GridSearchCV** for hyperparameter tuning.
+2. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-5. **Model Evaluation**
-   - Compared models using RMSE (Root Mean Squared Error).
-   - Evaluated final model on the test set.
+3. **Open the notebook:**
+   - Use Jupyter Notebook or JupyterLab to open and run `main.ipynb`.
 
-6. **Deployment (Optional)**
-   - Prepared the model for deployment with `joblib` or `pickle`.
+## Prerequisites
 
----
+- Python 3.7+
+- Jupyter Notebook or JupyterLab
+- Scikit-Learn
+- Pandas
+- NumPy
+- Matplotlib
 
-### 🧠 Tech Stack
-| Category | Tools/Libraries |
-|-----------|----------------|
-| Language | Python |
-| Data Analysis | Pandas, NumPy |
-| Visualization | Matplotlib, Seaborn |
-| Machine Learning | Scikit-learn |
-| Model Persistence | Joblib/Pickle |
-| Version Control | Git, GitHub |
+## Usage
+
+Follow along with the notebook to practice the concepts from Chapter 2. Modify the code and experiment with different parameters to deepen your understanding.
+
+## References
+
+- [Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow (Third Edition)](https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/)
+- [Scikit-Learn Documentation](https://scikit-learn.org/stable/)
+
+## License
+
+This project is for educational purposes only.
 
