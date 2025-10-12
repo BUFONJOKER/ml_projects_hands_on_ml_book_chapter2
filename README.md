@@ -19,6 +19,8 @@ The goal is to **predict house prices** based on various features using regressi
 3. **Data Preprocessing**
    - Created training and test set using sklearn train_test_split
    - Created median income category column from median income column converting continuous values into categories
+   - Created stratified train and test set and compare with random
+   train and test set
 
 4. **Model Training**
    - Trained multiple regression models:
