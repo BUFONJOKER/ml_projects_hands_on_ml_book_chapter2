@@ -17,9 +17,8 @@ The goal is to **predict house prices** based on various features using regressi
    - Identified correlations between features and the target variable (`median_house_value`).
 
 3. **Data Preprocessing**
-   - Handled missing values and outliers.
-   - Created new features (e.g., income category for stratified sampling).
-   - Performed one-hot encoding and feature scaling using `StandardScaler`.
+   - Created training and test set using sklearn train_test_split
+   - Created median income category column from median income column converting continuous values into categories
 
 4. **Model Training**
    - Trained multiple regression models:
