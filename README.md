@@ -44,7 +44,7 @@ Follow along with the notebook to practice the concepts from Chapter 2. Modify t
 
 ## References
 
-- [Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow (Third Edition)](https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/)
+- [Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow (Third Edition)](https://learning.oreilly.com/library/view/hands-on-machine-learning/9781098125967/)
 - [Scikit-Learn Documentation](https://scikit-learn.org/stable/)
 
 ## License
