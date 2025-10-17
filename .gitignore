@@ -1,2 +1,5 @@
-.vscode/
-datasets/
+# IDE settings
+/.vscode/
+
+# datasets directory at repository root
+/datasets/
