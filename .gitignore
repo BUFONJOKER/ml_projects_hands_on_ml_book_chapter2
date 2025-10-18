@@ -3,3 +3,6 @@
 
 # datasets directory at repository root
 /datasets/
+
+# ignore all pkl files
+*.pkl
